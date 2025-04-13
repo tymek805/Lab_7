@@ -2,7 +2,6 @@ import { createServer } from 'node:http'
 import { createYoga } from 'graphql-yoga'
 import { schema } from './schema.js'
 
-const axios = require('axios')
 const yoga = createYoga({ schema })
 const server = createServer(yoga)
 

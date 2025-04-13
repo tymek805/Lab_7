@@ -1,5 +1,5 @@
 import { createSchema } from 'graphql-yoga'
-import {getAllTodos, getAllUsers, getTodoById, getTodosByUserId, getUserById} from "./data";
+import {getAllTodos, getAllUsers, getTodoById, getTodosByUserId, getUserById} from "./data.js";
 
 export const schema = createSchema({
     typeDefs: /* GraphQL */ `

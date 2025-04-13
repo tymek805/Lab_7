@@ -1,4 +1,6 @@
 # Modules
-``npm init``
-``npm install nodemon axios graphql graphql-yoga``
-``npm start``
+```bash
+  npm init
+  npm install nodemon axios graphql graphql-yoga
+  npm start
+```
